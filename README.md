@@ -13,5 +13,5 @@ while read samp; do trimmomatic PE -threads 2 data/raw_fastq/"$samp"_1.fastq dat
 ```
 Then we do the same for bwa to map to the reference genome
 ```
-while read samp; do bwa mem data/reference/M_chelonae_NZ_CP007220.fasta  data/trimmed/"$samp"_trimmed_1.fastq  data/trimmed/"$samp"_trimmed_2.fastq | samtools view -Sbh -o data/aligned/"$samp".bam; done <scripts/samples
+while read samp; do bwa mem data/reference/M_chelonae_NZ_CP007220.fasta  data/trimmed/"$samp"_trimmed_1.fastq  data/trimmed/"$samp"_trimmed_2.fastq > data/aligned/"$samp".sam; done <scripts/samples
 ```
