@@ -1,4 +1,4 @@
-Launch the BinderHub environment by opening this [link](https://binder.pangeo.io/v2/gh/kyleaoconnell22/pangeo-genomics-tutorial/main) in a new browser tab
+Launch the BinderHub environment by opening this https://binder.pangeo.io/v2/gh/kyleaoconnell22/pangeo-genomics-tutorial/main in a new browser tab
 Test out the following commands.
 First, set up your directory structure and download files with this command. You can peek at what it is doing by typing `cat scripts/setup.sh`.
 ```
