@@ -8,3 +8,6 @@ dependencies:
   - multiqc ==1.10.1
   - trimmomatic ==0.36
   - pigz ==2.3.4
+  - bwa ==0.7.17
+  - samtools ==1.9
+  - picard ==2.20.1
