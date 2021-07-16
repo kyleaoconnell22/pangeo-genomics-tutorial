@@ -1,5 +1,5 @@
 # Setup dir structure
-mkdir data data/raw_fastq data/trimmed data/reference
+mkdir data data/raw_fastq data/trimmed data/aligned data/reference
 
 # Download the raw sequence data, note that it is heavily downsampled to run really fast
 curl https://storage.googleapis.com/me-inbre-rnaseq-pipelinev2/data/raw_fastqSub/SRR13349122_1.fastq --output data/raw_fastq/SRR13349122_1.fastq
