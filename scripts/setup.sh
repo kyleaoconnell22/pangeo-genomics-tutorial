@@ -17,4 +17,4 @@ curl https://storage.googleapis.com/me-inbre-rnaseq-pipelinev2/data/reference/M_
 curl https://storage.googleapis.com/me-inbre-rnaseq-pipelinev2/data/reference/M_chelonae_NZ_CP007220.fasta.sa --output data/reference/M_chelonae_NZ_CP007220.fasta.sa
 
 # Download barcodes for trimming
-curl https://storage.googleapis.com/me-inbre-rnaseq-pipelinev2/config/TruSeq3-PE.fa TruSeq3-PE.fa
+curl https://storage.googleapis.com/me-inbre-rnaseq-pipelinev2/config/TruSeq3-PE.fa --output TruSeq3-PE.fa
