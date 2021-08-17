@@ -2,10 +2,10 @@
 mkdir data data/raw_fastq data/trimmed data/aligned data/reference
 
 # Download the raw sequence data, note that it is heavily downsampled to run really fast
-curl https://storage.googleapis.com/me-inbre-rnaseq-pipelinev2/data/raw_fastqSub/SRR13349122_1.fastq --output data/raw_fastq/SRR13349122_1.fastq
-curl https://storage.googleapis.com/me-inbre-rnaseq-pipelinev2/data/raw_fastqSub/SRR13349122_2.fastq --output data/raw_fastq/SRR13349122_2.fastq
-curl https://storage.googleapis.com/me-inbre-rnaseq-pipelinev2/data/raw_fastqSub/SRR13349123_1.fastq --output data/raw_fastq/SRR13349123_1.fastq
-curl https://storage.googleapis.com/me-inbre-rnaseq-pipelinev2/data/raw_fastqSub/SRR13349123_2.fastq --output data/raw_fastq/SRR13349123_2.fastq
+curl https://storage.googleapis.com/nigms_raw_fastq/SRR13349122_1.fastq --output data/raw_fastq/SRR13349122_1.fastq
+curl https://storage.googleapis.com/nigms_raw_fastq/SRR13349122_2.fastq --output data/raw_fastq/SRR13349122_2.fastq
+curl https://storage.googleapis.com/nigms_raw_fastq/SRR13349123_1.fastq --output data/raw_fastq/SRR13349123_1.fastq
+curl https://storage.googleapis.com/nigms_raw_fastq/SRR13349123_2.fastq --output data/raw_fastq/SRR13349123_2.fastq
 
 # Download reference genome
 curl https://storage.googleapis.com/me-inbre-rnaseq-pipelinev2/data/reference/M_chelonae_NZ_CP007220.fasta --output data/reference/M_chelonae_NZ_CP007220.fasta
